@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    border-radius: 20%;
+    font-size: 20px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body-class {
+    font-family:arial;
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+    width: 1140px;
+}
+
+.blog-post {
+    width: 85%;
+    letter-spacing: 20%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.links-blog-post {
+    width: 15%;
+    letter-spacing: 120%;
+    float: left;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.post1{
+    margin-bottom: 50px;
+}
+.post2 {
+    margin-top: 20px;
+}
